@@ -4,63 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product landing page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""></a>
+    <nav class="navbar navbar-expand-lg product-header">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img class="logo" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse product-menu" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Features</a>
+                <a class="nav-link features" aria-current="page" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">How it Works</a>
+                <a class="nav-link how-it-works" href="#how-it-works">How it Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pricing">Pricing</a>
+                <a class="nav-link pricing" href="#pricing">Pricing</a>
               </li>
             </ul>
            
           </div>
         </div>
       </nav>
-      <div>
-        <h1>Handcrafted, home-made masterpieces</h1>
-        <form>
-            <div class="mb-3">
-              
-              <input placeholder="Enter your email address" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-             
+      
+      <div id="page-content" class="container">
+        <div>
+          <h1 class="title">Handcrafted, home-made masterpieces</h1>
+          <form>
+              <div class="mb-3 mt-4">
+                
+                <input placeholder="Enter your email address" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+               
+              </div>
+              <button type="submit" class="btn btn-warning get-started mb-5">GET STARTED</button>
+            </form>
+        </div>
+        <div class="second-section" id="features">
+          <ul class="">
+              <li class="mb-5">
+                <div class="row">
+                  <div class="col-md-2">
+                    <span class="product-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+                  </div>
+                  <div class="col-md-10">
+                    <h3>Premium Materials</h3>
+                    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                  
+                  </div>
+                </div>
+              </li>
+              <li class="mb-5">
+
+                <div class="row">
+                  <div class="col-md-2">
+                    <span class="product-icon"><i class="fa-solid fa-truck"></i></span>
+                  </div>
+                  <div class="col-md-10">
+                    <h3>Fast Shipping</h3>
+                    We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.                </p>
+                  
+                  </div>
+                </div>
+              </li>
+              <li class="mb-5">
+
+                <div class="row">
+                  <div class="col-md-2">
+                    <span class="product-icon"><i class="fa-solid fa-battery-full"></i></span>
+                  </div>
+                  <div class="col-md-10">
+                    <h3>Quality Assurance</h3>
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.                </p>
+                  
+                  </div>
+                </div>
+
+            </li>
+            </ul>
+        </div>
+  
+        <div class="" id="how-it-works">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+  
+        <div class="row pricing-box-row" id="pricing">
+            <div class="col-md-4 pricing-box">
+                <p class="product-title">TENOR TROMBONE</p>
+                <p class="product-price">$600</p>
+                <ul class="product-desc">
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum.</li>
+                </ul>
+                <button class="btn btn-warning product-button">SELECT</button>
             </div>
-            <button type="submit" class="btn btn-warning">Get Started</button>
-          </form>
+  
+              <div class="col-md-4 pricing-box">
+                <p class="product-title">BASS TROMBONE</p>
+                <p class="product-price">$900</p>
+                <ul class="product-desc">
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum.</li>
+                </ul>
+                <button class="btn btn-warning product-button">SELECT</button>
+            </div>
+  
+            <div class="col-md-4 pricing-box">
+              <p class="product-title">VALVE TROMBONE</p>
+              <p class="product-price">$1200</p>
+              <ul class="product-desc">
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+              </ul>
+              <button class="btn btn-warning product-button">SELECT</button>
+            </div>
+  
+        </div>
+  
+        <footer >
+            <nav class="navbar navbar-expand-lg mt-5 pt-4" id="footer-section">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="footer-menu">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link privacy" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link terms" href="#">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link contact" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <p>Copyright 2016, Original Trombones</p>
+              </div>
+            </nav>
+            
+        </footer>
       </div>
-      <div>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <i class="fa-solid fa-fire-flame-curved"></i>
-              <label class="form-check-label" for="firstCheckbox">Premium Materials</label>
-              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-            </li>
-            <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-              <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
-            </li>
-            <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-              <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
-            </li>
-          </ul>
-      </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>  
 </body>
 </html>

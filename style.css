@@ -1,0 +1,119 @@
+.logo{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.product-header{
+padding-top: 15px !important;
+height: 100px !important;
+background-color: #EEEEEE !important;
+position: fixed !important;
+}
+
+#page-content{
+    padding-top: 120px;
+}
+
+body, nav{
+    font-family : Lato !important;
+    background-color: #EEEEEE !important;
+}
+
+.second-section{
+    margin-left: 110px;
+}
+.second-section ul{
+    list-style: none !important;
+}
+
+.how-it-works, .pricing, .features{
+    margin-right: 90px;
+    color: black !important;
+}
+
+.privacy, .terms, .contact{
+    color: black !important;
+}
+
+.product-menu{
+    margin-left: 450px;
+    
+}
+.title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold!important;
+}
+
+input{
+    width: 300px !important;
+    margin-left: 410px !important;
+}
+
+.get-started{
+    margin-left: 500px !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    background-color: #F1C40F !important;
+}
+
+.product-icon{
+    color: #FF8C00;
+    font-size: 45px;
+}
+
+iframe{
+    margin-left: 320px;
+    margin-bottom: 90px;
+}
+
+.pricing-box{
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 20px;
+    width: 300px !important;
+}
+
+.product-title{
+    background-color: #DDDDDD;
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product-desc{
+    text-align: center;
+    list-style: none;
+}
+
+.product-button{
+    margin-left: 100px ;
+    font-family : Arial !important;
+    background-color: #F1C40F !important;
+}
+
+.pricing-box-row{
+    margin-left: 50px !important;
+}
+
+
+#footer-section{
+    background-color: #DDDDDD !important;
+}
+
+#footer-menu{
+    
+}
